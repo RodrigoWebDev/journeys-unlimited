@@ -85,9 +85,6 @@
 /* ----- Mobile -----*/
 
 @media (max-width: 991px) {
-  .module-title h2 {
-    font-size: 32px !important;
-  }
 
   .join-inner > div > div {
     flex-direction: column;

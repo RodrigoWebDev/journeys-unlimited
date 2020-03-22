@@ -32,33 +32,3 @@
 #WhyJourneys h3 {
   font-size: 24px !important;
 }
-
-.cards-1 h2 {
-  margin-bottom: 0;
-  font-size: 30px;
-  font-weight: 800 !important;
-}
-
-.cards-1 p {
-  margin-bottom: 0;
-}
-
-.cards-1 {
-  padding: 17px 0;
-}
-
-.cards-1-text-small p {
-    font-size: 16px;
-}
-
-.wpb_wrapper > .cards-1:nth-child(even) {
-  background: #f7f8f9;
-}
-
-.cards-1 .wpb_single_image.vc_align_left {
-  margin-bottom: 0 !important;
-}
-
-.cards-1 .wpb_content_element {
-    margin-bottom: 9px !important;
-}

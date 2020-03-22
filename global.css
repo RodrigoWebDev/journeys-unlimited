@@ -50,15 +50,52 @@ input[type="submit"] {
   margin-bottom: 50px;
 }
 
+.cards-1 h2 {
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 800 !important;
+}
+
+.cards-1 p {
+  margin-bottom: 0;
+}
+
+.cards-1 {
+  padding: 17px 0;
+}
+
+.cards-1-text-small p {
+    font-size: 16px;
+}
+
+.wpb_wrapper > .cards-1:nth-child(even) {
+  background: #f7f8f9;
+}
+
+.cards-1 .wpb_single_image.vc_align_left {
+  margin-bottom: 0 !important;
+}
+
+.cards-1 .wpb_content_element {
+    margin-bottom: 9px !important;
+}
 
 /* ----- Questions About Your Spiritual Journey? -----*/
 
 form.wpcf7-form {
-    max-width: 760px;
-    margin: 0 auto;
-  }
+  max-width: 760px;
+  margin: 0 auto;
+}
 
 @media (max-width: 991px) {
+  .cards-1 img {
+    margin-bottom: 30px;
+}
+
+  .module-title h2 {
+    font-size: 32px !important;
+  }
+
   .small-parag p {
     width: 100%;
     max-width: 100%;

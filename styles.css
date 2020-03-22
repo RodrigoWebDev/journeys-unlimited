@@ -1,0 +1,188 @@
+.homey-module.module-title.section-title-module.text-left p.sub-heading {
+  font-weight: 100 !important;
+}
+
+body {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+button,
+input[type="submit"] {
+  background: #950303 !important;
+  color: white !important;
+  border-radius: 0 !important;
+  font-weight: normal !important;
+  padding: 7px 40px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
+}
+
+.custom-btn-color {
+  margin-bottom: 0;
+  margin-right: 17px;
+}
+
+.title-2 h2 {
+  font-size: 40px;
+  font-weight: 500 !important;
+}
+
+.title-3 h2 {
+  font-size: 25px;
+  font-weight: 500 !important;
+}
+
+/* ----- Make travel a part of your ministry ----- */
+.vc_custom_1584302240802 {
+  margin-bottom: 50px;
+}
+
+.small-parag p {
+  max-width: 54%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ----- Learn How To Lead Your Own Group Tour ----- */
+
+.join {
+  background: #f7f8f9;
+  padding: 30px 16px;
+  margin-bottom: 70px;
+}
+
+.join-inner > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-inner > div > div > div:last-of-type {
+  margin-bottom: 0;
+}
+
+/* ----- Leading A Tour Is Easy ----- */
+.cards h3 {
+  font-size: 29px;
+  font-weight: 500 !important;
+}
+
+.cards .title-2 {
+  margin-bottom: 70px;
+  font-weight: 800;
+}
+
+.cards {
+  margin-bottom: 50px;
+}
+
+/* ----- Benefits of Leading Your Own Trip ----- */
+
+.benefits ul {
+  padding-left: 0 !important;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.benefits ul li {
+  margin-bottom: 20px;
+}
+
+.benefits {
+  margin-bottom: 80px;
+}
+
+/* ----- Testimonials ----- */
+
+.testimonial-slick .vc_inner p {
+  font-style: italic;
+}
+
+.testimonial-slick .slick-slide {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-slick .slick-dots > li > button {
+  border-radius: 50% !important;
+  border: 1.5px solid transparent;
+  width: 10px;
+  height: 10px;
+  background: transparent !important;
+  border-color: rgba(0, 0, 0, 0.6) !important;
+  padding: 0 !important;
+}
+
+.testimonial-slick .slick-dots > li > button:before {
+  opacity: 0 !important;
+  display: none;
+}
+
+.testimonial-slick .slick-dots > li.slick-active > button {
+  background: rgba(0, 0, 0, 0.6) !important;
+  border-color: transparent !important;
+}
+
+.testimonial-slick {
+  margin-bottom: 80px;
+}
+
+/* ----- Learn about Leading your Tour -----*/
+
+.learn {
+  margin-bottom: 50px;
+}
+
+/* ----- Questions About Your Spiritual Journey? -----*/
+
+form.wpcf7-form {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* ----- Mobile -----*/
+
+@media (max-width: 991px) {
+  .small-parag p {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .title-2 h2 {
+    font-size: 22px;
+  }
+
+  .module-title h2 {
+    font-size: 32px !important;
+  }
+
+  .join-inner > div > div {
+    flex-direction: column;
+  }
+
+  .join button {
+    margin-bottom: 20px !important;
+  }
+
+  .custom-btn-color {
+    margin-right: 0 !important;
+  }
+
+  .cards h3 {
+    font-size: 22px;
+  }
+
+  .benefits ul {
+    max-width: 100% !important;
+  }
+
+  .testimonial-slick .slick-slide {
+    flex-direction: column;
+  }
+
+  .HeaderMoreInfoContainer {
+    display: none;
+}
+}

@@ -2,47 +2,9 @@
   font-weight: 100 !important;
 }
 
-body {
-  color: rgba(0, 0, 0, 0.8);
-}
-
-button,
-input[type="submit"] {
-  background: #950303 !important;
-  color: white !important;
-  border-radius: 0 !important;
-  font-weight: normal !important;
-  padding: 7px 40px !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: normal;
-}
-
-.custom-btn-color {
-  margin-bottom: 0;
-  margin-right: 17px;
-}
-
-.title-2 h2 {
-  font-size: 40px;
-  font-weight: 500 !important;
-}
-
-.title-3 h2 {
-  font-size: 25px;
-  font-weight: 500 !important;
-}
-
 /* ----- Make travel a part of your ministry ----- */
 .vc_custom_1584302240802 {
   margin-bottom: 50px;
-}
-
-.small-parag p {
-  max-width: 54%;
-  margin: 0 auto;
-  text-align: center;
 }
 
 /* ----- Learn How To Lead Your Own Group Tour ----- */
@@ -61,21 +23,6 @@ input[type="submit"] {
 
 .join-inner > div > div > div:last-of-type {
   margin-bottom: 0;
-}
-
-/* ----- Leading A Tour Is Easy ----- */
-.cards h3 {
-  font-size: 29px;
-  font-weight: 500 !important;
-}
-
-.cards .title-2 {
-  margin-bottom: 70px;
-  font-weight: 800;
-}
-
-.cards {
-  margin-bottom: 50px;
 }
 
 /* ----- Benefits of Leading Your Own Trip ----- */
@@ -135,25 +82,9 @@ input[type="submit"] {
   margin-bottom: 50px;
 }
 
-/* ----- Questions About Your Spiritual Journey? -----*/
-
-form.wpcf7-form {
-  max-width: 760px;
-  margin: 0 auto;
-}
-
 /* ----- Mobile -----*/
 
 @media (max-width: 991px) {
-  .small-parag p {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .title-2 h2 {
-    font-size: 22px;
-  }
-
   .module-title h2 {
     font-size: 32px !important;
   }
@@ -181,8 +112,4 @@ form.wpcf7-form {
   .testimonial-slick .slick-slide {
     flex-direction: column;
   }
-
-  .HeaderMoreInfoContainer {
-    display: none;
-}
 }

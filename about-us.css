@@ -1,66 +1,84 @@
 .custom-image-gallery .wpb_image_grid_ul {
-    display: flex;
-    height: auto !important;
+  display: flex;
+  height: auto !important;
 }
 
 .custom-image-gallery .wpb_image_grid_ul > li {
-    flex-basis: 33%;
-    position: static !important;
-    top: unset !important;
-    left: unset !important;
-    line-height: normal !important;
+  flex-basis: 33%;
+  position: static !important;
+  top: unset !important;
+  left: unset !important;
+  line-height: normal !important;
 }
 
 .cards-2 {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .cards-2 h2 {
   margin-bottom: 30px;
-  }
+}
 
-  .cards-2 .wpb_single_image .vc_figure,.cards-2 .wpb_single_image .vc_single_image-wrapper {
-    width: 100%;
-    display:block;
+.cards-2 .wpb_single_image .vc_figure,
+.cards-2 .wpb_single_image .vc_single_image-wrapper {
+  width: 100%;
+  display: block;
 }
 
 section > .cards-1:nth-child(odd) {
-    background: #f7f8f9;
+  background: #f7f8f9;
 }
 
 .title-2 h2 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
-@media(max-width: 991px){
-    .custom-image-gallery .wpb_image_grid_ul {
-        flex-wrap: wrap;
-    }
+.custom-image-gallery {
+  padding: 40px 60px;
+  background: #f7f8f9;
+}
 
-    .custom-image-gallery .wpb_image_grid_ul > li {
-        flex-basis: 100%;
-        width: 100%;
-    }
+.custom-image-gallery ul li {
+  padding: 0 11px !important;
+}
+@media (max-width: 991px) {
+  .custom-image-gallery .wpb_image_grid_ul {
+    flex-wrap: wrap;
+  }
 
-    .custom-image-gallery .wpb_image_grid_ul > li img {
-        width: 100%;
-        height: auto;
-    }
+  .custom-image-gallery .wpb_image_grid_ul > li {
+    flex-basis: 100%;
+    width: 100%;
+  }
 
-    .cards-2 {
-        flex-wrap: wrap;
-    }
+  .custom-image-gallery .wpb_image_grid_ul > li img {
+    width: 100%;
+    height: auto;
+  }
 
-    .biggerTextAbout p, .smallerTextAbout p {
-        font-size: 16px;
-    }
+  .cards-2 {
+    flex-wrap: wrap;
+  }
 
-    .title-2 h2 {
-        margin-bottom: 7px;
-    }
-    
-    .cards-2 h2 {
-        font-size: 24px;
-    }
+  .biggerTextAbout p,
+  .smallerTextAbout p {
+    font-size: 16px;
+  }
+
+  .title-2 h2 {
+    margin-bottom: 7px;
+  }
+
+  .cards-2 h2 {
+    font-size: 24px;
+  }
+
+  .custom-image-gallery {
+    padding: 40px 0;
+  }
+
+  .custom-image-gallery ul li {
+    margin-bottom: 40px !important;
+  }
 }

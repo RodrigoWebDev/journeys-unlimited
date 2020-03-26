@@ -91,6 +91,11 @@ form.wpcf7-form {
   .cards-1 img {
     margin-bottom: 30px;
 }
+  
+  .mobile-logo img {
+    width: 141px;
+    height: auto;
+}
 
   .module-title h2 {
     font-size: 32px !important;

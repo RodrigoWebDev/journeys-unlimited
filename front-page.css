@@ -1,0 +1,41 @@
+.search-wrap.search-banner.search-banner-desktop.hidden-xs {
+  display: none;
+  margin-top: 40vh;
+}
+#testys .strong-view.default .testimonial {
+  padding: 0px 15px 0px 15px;
+}
+#testys .p-rich_text_section {
+  font-size: 36px;
+  line-height: 36px;
+  padding: 0px 0px 20px 30px;
+  font-style: italic;
+}
+#testys .strong-view.default .testimonial,
+#testys .strong-view.default .testimonial-inner {
+  border-radius: 10px;
+}
+#testys .strong-view.default .testimonial-image img {
+  border: 0px solid #efefef;
+  padding: 0px;
+}
+#testys .strong-view.default .testimonial-name {
+  font-size: 18px;
+  line-height: 12px;
+}
+.destinAbove {
+  z-index: 100;
+}
+.module-title h2 {
+  font-size: 28px;
+}
+#WhyJourneys h3 {
+  font-size: 24px !important;
+}
+    /* Custom */
+    
+    .our-mission img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}

@@ -65,7 +65,7 @@ input[type="submit"] {
 }
 
 .cards-1-text-small p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .wpb_wrapper > .cards-1:nth-child(even) {
@@ -77,7 +77,7 @@ input[type="submit"] {
 }
 
 .cards-1 .wpb_content_element {
-    margin-bottom: 9px !important;
+  margin-bottom: 9px !important;
 }
 
 /* ----- Questions About Your Spiritual Journey? -----*/
@@ -90,12 +90,12 @@ form.wpcf7-form {
 @media (max-width: 991px) {
   .cards-1 img {
     margin-bottom: 30px;
-}
-  
+  }
+
   .mobile-logo img {
     width: 141px;
     height: auto;
-}
+  }
 
   .module-title h2 {
     font-size: 32px !important;
